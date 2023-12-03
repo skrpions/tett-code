@@ -35,7 +35,7 @@ header a{
 
 .logo-container {
     margin-top: 30px; /* Espaciado a la derecha para separar del resto del contenido en el header */
-    margin-right: 20px; /* Espaciado a la derecha para separar del resto del contenido en el header */
+    margin-right: 10px; /* Espaciado a la derecha para separar del resto del contenido en el header */
   }
   
   .logo-image {
@@ -67,7 +67,7 @@ header a{
     top: 20%;
     width: 1140px;
     max-width: 80%;
-    left: 50%;
+    left: 43%;
     transform: translateX(-50%);
     padding-right: 30%;
     box-sizing: border-box;
@@ -147,7 +147,7 @@ header a{
 .arrows{
     position: absolute;
     top: 80%;
-    right: 52%;
+    right: 69%;
     z-index: 100;
     width: 300px;
     max-width: 30%;
