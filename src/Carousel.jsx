@@ -181,6 +181,11 @@ const Carousel = () => {
         }
     };
 
+    const handleWhatsAppClick = () => {
+        window.open('https://wa.me/3105338818', '_blank');
+    };
+
+
     return (
         <>
             <div ref={carouselRef} className="carousel">
@@ -194,7 +199,7 @@ const Carousel = () => {
                                 <div className="subtitle">{item.subtitle}</div>
                                 <div className="description">{item.description}</div>
                                 <div className="buttons">
-                                    <button>Let’s Connect</button>
+                                    <button type='button' onClick={handleWhatsAppClick}>Conectemos</button>
                                 </div>
                             </div>
                         </div>
