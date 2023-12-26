@@ -9,6 +9,8 @@ import img3 from './assets/sliders/img-citobot.png';
 import img4 from './assets/sliders/img-ecco5.jpg';
 import img5 from './assets/sliders/img-avigan.jpg';
 import img6 from './assets/sliders/img-biclapp.jpg';
+import img7 from './assets/sliders/img-sercor.jpg';
+import img8 from './assets/sliders/img-misak.png';
 
 const Carousel = () => {
     const [prev] = useState('<');
@@ -20,53 +22,67 @@ const Carousel = () => {
 
     const content = [
         {
-            feature: "PERFIL",
+            feature: "INTRO",
             title: "NESTOR MARTÍNEZ",
             subtitle: "",
             description: "",
             media: <video src={movie} autoPlay muted loop />,
         },
         {
-            feature: "",
-            title: "SKILLS",
-            subtitle: "",
-            description: "",
-            media: <img src={img1} alt="Image 1" />,
+            feature: "PERFIL",
+            title: "NESTOR MARTÍNEZ",
+            subtitle: "FULL STACK WEB DEVELOPER",
+            description: "Seamless user experiences to empower digital transformation",
+            media: <img src={img1} />,
         },
         {
             feature: "PROYECTO",
             title: "SKILLS INVENTORY",
-            subtitle: "Talento Digital",
+            subtitle: "Talento",
             description: "",
-            media: <img src={img2} alt="Image 2" />,
+            media: <img src={img2} />,
         },
         {
             feature: "PROYECTO",
             title: "CITOBOT",
-            subtitle: "Salud Digital",
+            subtitle: "Salud",
             description: "",
-            media: <img src={img3} alt="Image 3" />,
+            media: <img src={img3} />,
         },
         {
             feature: "PROYECTO",
             title: "ECCO",
-            subtitle: "Entrenamiento Online",
+            subtitle: "Deporte",
             description: "",
-            media: <img src={img4} alt="Image 4" />,
+            media: <img src={img4} />,
         },
         {
             feature: "PROYECTO",
             title: "AVIGAN CLOUD",
-            subtitle: "Ganadería Digital",
+            subtitle: "Ganadería",
             description: "",
-            media: <img src={img5} alt="Image 5" />,
+            media: <img src={img5} />,
         },
         {
             feature: "PROYECTO",
             title: "BICLAPP",
-            subtitle: "Seguridad Digital",
+            subtitle: "Seguridad",
             description: "",
-            media: <img src={img6} alt="Image 5" />,
+            media: <img src={img6} />,
+        },
+        {
+            feature: "PROYECTO",
+            title: "SERCOR",
+            subtitle: "Agricultura",
+            description: "",
+            media: <img src={img7} />,
+        },
+        {
+            feature: "PROYECTO",
+            title: "MISAK UNIVERSIDAD",
+            subtitle: "Educación",
+            description: "",
+            media: <img src={img8} />,
         },
     ];
 
@@ -180,7 +196,7 @@ const Carousel = () => {
                 <div ref={thumbnailBorderRef} className="thumbnail">
                     {content.map((item, index) => (
                         <div key={index} className="item">
-                            {item.feature === "PERFIL" ? (
+                            {item.feature === "INTRO" ? (
                                 <>
                                     {/* <video src={movie} autoPlay muted loop /> */}
                                     <img src={thumbnailVideo} alt={`Thumbnail ${index + 1}`} />
@@ -195,6 +211,8 @@ const Carousel = () => {
                         </div>
                     ))}
                 </div>
+
+
 
 
                 <div className="arrows">

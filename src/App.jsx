@@ -13,7 +13,7 @@ function App() {
           <a href="">Contactos</a>
           <a href="">Información</a> */}
           <div className="logo-container">
-            <img src={logoImage} alt="Logo de Mi Aplicación" className="logo-image" />
+            <img src={logoImage} className="logo-image" />
           </div>
         </nav>
       </header>

@@ -64,7 +64,7 @@ header a{
 }
 .carousel .list .item .content{
     position: absolute;
-    top: 20%;
+    top: 30%;
     width: 1140px;
     max-width: 80%;
     left: 43%;
@@ -78,14 +78,19 @@ header a{
     font-weight: bold;
     letter-spacing: 10px;
 }
-.carousel .list .item .title,
-.carousel .list .item .subtitle{
-    font-size: 4em;
+.carousel .list .item .title {
+    font-size: 3em;
     font-weight: bold;
     line-height: 1.3em;
 }
 .carousel .list .item .subtitle{
-    color: rgb(27, 199, 241);
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+.carousel .list .item .subtitle{
+    color: rgb(204, 210, 212);
+    /* color: rgb(27, 199, 241); */
 }
 .carousel .list .item .buttons{
     display: grid;
