@@ -10,7 +10,8 @@ import img4 from './assets/sliders/img-ecco5.jpg';
 import img5 from './assets/sliders/img-avigan.jpg';
 import img6 from './assets/sliders/img-biclapp.jpg';
 import img7 from './assets/sliders/img-sercor.jpg';
-import img8 from './assets/sliders/img-misak.png';
+import img8 from './assets/sliders/img-estudio.jpg';
+import img9 from './assets/sliders/img-misak.png';
 
 const Carousel = () => {
     const [prev] = useState('<');
@@ -79,10 +80,17 @@ const Carousel = () => {
         },
         {
             feature: "PROYECTO",
+            title: "ESTUDIO BF",
+            subtitle: "Moda",
+            description: "",
+            media: <img src={img8} />,
+        },
+        {
+            feature: "PROYECTO",
             title: "MISAK UNIVERSIDAD",
             subtitle: "Educación",
             description: "",
-            media: <img src={img8} />,
+            media: <img src={img9} />,
         },
     ];
 
