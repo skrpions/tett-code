@@ -33,17 +33,22 @@ header a{
   }
 
   /* logo */
-  .logo-container {
-    position: absolute;
-    top: 9rem;
-    left: 20px;
-    z-index: 101;
-  }
-  
-  .logo-image {
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: fixed;
+    top: 15%;
+    left: 3%;
+    right: 0;
+    height: 50px;
+}
+
+.logo-image {
     width: 60px;
     height: 60px;
-  }
+}
+
 
 /* redes sociales */
 .social-icons {
@@ -165,7 +170,7 @@ header a{
     flex-shrink: 0;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .thumbnail .item img {

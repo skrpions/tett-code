@@ -1,5 +1,5 @@
 import './App.css'
-import logoImage from './assets/scorpio.png';
+import logoImage from './assets/skrpion.png';
 import Carousel from './Carousel';
 
 function App() {
@@ -29,11 +29,6 @@ function App() {
               </a>
 
             </div>
-
-            <div class="vertical-line"></div>
-
-
-
 
             <img src={logoImage} className="logo-image" />
           </div>

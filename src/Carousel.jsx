@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './App.css';
 
-import movie from './assets/movie-home3.mp4';
+import movie from './assets/movie.mp4';
 import thumbnailVideo from './assets/sliders/plus.png';
 import img1 from './assets/sliders/skills.jpg';
 import img2 from './assets/sliders/img-skills.jpg';
@@ -33,7 +33,7 @@ const Carousel = () => {
             feature: "PERFIL",
             title: "NESTOR MARTÍNEZ",
             subtitle: "FULL STACK WEB DEVELOPER",
-            description: "Seamless user experiences to empower digital transformation",
+            description: "Experiencias de usuario perfectas para potenciar la transformación digital",
             media: <img src={img1} />,
         },
         {
@@ -199,7 +199,7 @@ const Carousel = () => {
                                 <div className="subtitle">{item.subtitle}</div>
                                 <div className="description">{item.description}</div>
                                 <div className="buttons">
-                                    <button type='button' onClick={handleWhatsAppClick}>Conectemos</button>
+                                    <button type='button' onClick={handleWhatsAppClick}>Conectémonos</button>
                                 </div>
                             </div>
                         </div>
